@@ -1,0 +1,13 @@
+{
+  "name": "ai-agent-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for AI Agent",
+  "main": "script.js",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "serve": "npx serve -s . -p 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
